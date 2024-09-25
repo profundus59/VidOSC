@@ -19,7 +19,7 @@ def parse_args():
     # data args
     parser.add_argument("--ann_dir", type=str, default='./data_files')
     parser.add_argument("--pseudolabel_dir", type=str, default="./videoclip_pseudolabel")
-    parser.add_argument("--feat_dir", type=str, default='./data')
+    parser.add_argument("--feat_dir", type=str, default='./data') #TODO: need to download feat files.
     parser.add_argument("--sc_list", type=str, nargs='+', default=['peeling'])
     # model args
     parser.add_argument("--transformer_heads", type=int, default=4)
